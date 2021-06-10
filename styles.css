@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(90deg, salmon,blue, aqua);
+    
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+.container{
+    width: 70vh;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listado{
+    width: 100%;
+}
+
+.canciones{
+   padding: 1rem 2rem;
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.titulo{
+    flex: 6;
+}
+
+.play, .stop, .descargar {
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+.material-icons {
+     cursor: pointer !important;
+}
+
+
+#etiqueta{
+    padding-top: 100px;
+    color: #fff;
+    font-size: 10px;
+}
